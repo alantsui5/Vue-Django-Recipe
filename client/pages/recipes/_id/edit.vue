@@ -58,7 +58,7 @@
 export default {
   head(){
       return {
-        title: "编辑食谱"
+        title: "編輯食譜"
       }
     },
   async asyncData({ $axios, params }) {

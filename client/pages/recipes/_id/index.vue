@@ -16,11 +16,11 @@
         <div class="recipe-details">
           <h4>食材</h4>
           <p>{{ recipe.ingredients }}</p>
-          <h4>准备时间 ⏱</h4>
+          <h4>準備時間 ⏱</h4>
           <p>{{ recipe.prep_time }} mins</p>
-          <h4>制作难度</h4>
+          <h4>製作難度</h4>
           <p>{{ recipe.difficulty }}</p>
-          <h4>制作指南</h4>
+          <h4>製作指南</h4>
           <textarea class="form-control" rows="10" v-html="recipe.prep_guide" disabled/>
         </div>
       </div>
@@ -32,7 +32,7 @@
 export default {
   head() {
     return {
-      title: "食谱详情"
+      title: "食譜詳情"
     };
   },
   async asyncData({ $axios, params }) {

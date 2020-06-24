@@ -22,7 +22,7 @@
       <div class="col-md-4">
         <form @submit.prevent="submitRecipe">
           <div class="form-group">
-            <label for>食谱名称</label>
+            <label for>食譜名稱</label>
             <input type="text" class="form-control" v-model="recipe.name">
           </div>
           <div class="form-group">
@@ -30,25 +30,25 @@
             <input v-model="recipe.ingredients" type="text" class="form-control">
           </div>
           <div class="form-group">
-            <label for>图片</label>
+            <label for>圖片</label>
             <input type="file" name="file" @change="onFileChange">
           </div>
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <label for>难度</label>
+                <label for>難度</label>
                 <select v-model="recipe.difficulty" class="form-control">
                   <option value="Easy">容易</option>
                   <option value="Medium">中等</option>
-                  <option value="Hard">困难</option>
+                  <option value="Hard">困難</option>
                 </select>
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
                 <label for>
-                  制作时间
-                  <small>(分钟)</small>
+                  製作時間
+                  <small>(分鐘)</small>
                 </label>
                 <input v-model="recipe.prep_time" type="number" class="form-control">
               </div>
@@ -69,7 +69,7 @@
 export default {
   head() {
     return {
-      title: "Add Recipe"
+      title: "添加食譜"
     };
   },
   data() {
