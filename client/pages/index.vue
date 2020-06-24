@@ -4,7 +4,7 @@
       <h1>吃貨天堂 😋</h1>
       <p class="mt-3">製作我們喜歡的美食 ❤️ ️</p>
       <nuxt-link class="btn btn-outline btn-large btn-info" to="/recipes">
-        查看食谱
+        查看食譜
         <span class="ml-2">&rarr;</span>
       </nuxt-link>
     </div>
