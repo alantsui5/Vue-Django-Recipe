@@ -1,8 +1,8 @@
 <template>
   <header>
     <div class="text-box">
-      <h1>吃货天堂 😋</h1>
-      <p class="mt-3">制作我们喜爱的美食 ❤️ ️</p>
+      <h1>吃貨天堂 😋</h1>
+      <p class="mt-3">製作我們喜歡的美食 ❤️ ️</p>
       <nuxt-link class="btn btn-outline btn-large btn-info" to="/recipes">
         查看食谱
         <span class="ml-2">&rarr;</span>
@@ -17,7 +17,7 @@ import Vue from "vue";
 export default Vue.extend({
   head() {
     return {
-      title: "首页"
+      title: "首頁"
     };
   }
 });
